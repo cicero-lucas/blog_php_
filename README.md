@@ -1,2 +1,2 @@
 # blog_php_
-Blog feito usando PHP
+Blog feito em react usando API em PHP
