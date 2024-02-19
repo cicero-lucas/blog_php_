@@ -1,0 +1,54 @@
+.header{
+    height: 20vh;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(251, 255, 255, 0.427);
+    position: sticky;
+    top: 0;
+}
+
+.header #logo{
+    flex: 34%;
+    margin: 2% 4%;
+}
+
+#logo h1{
+    color: rgb(0, 110, 255);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.09);
+    font-size: 2.5rem;
+}
+
+.header nav{
+    flex: 50%;
+    margin:3% 4%;
+}
+
+.header nav ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style-type:none;
+}
+
+.header nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+    font: 500 15px arial;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.header nav ul li a:hover{
+   color: rgb(96, 159, 241);
+   border-bottom:2px solid  rgb(96, 159, 241);
+   transition: all 1s;
+   
+}
+
+
+
+
+
+
