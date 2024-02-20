@@ -1,20 +1,20 @@
-import {react} from 'react';
-import Header from './componentes/header';
-import Main from './componentes/main';
-import Foote from './componentes/footer';
+import React from 'react';
+import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
+import Home from './componentes/pages/Home/home';
+import Login from './componentes/pages/Login/Login';
+import Cadastro from './componentes/pages/Cadastro/Cadastro';
 import './App.css';
-function App() {
-  
 
+function App() {
   return (
     <>
-     <Header></Header>
-
-     <Main>
-      
-     </Main>
-
-     <Foote></Foote>
+     <Router>
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/login' element={<Login/>} />
+          <Route path='/cadastro' element={<Cadastro/>} />
+        </Routes>
+     </Router>
     </>
   )
 }

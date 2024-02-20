@@ -1,5 +1,5 @@
 import React from "react";
-import img from '../../assets/img/images.jpg';
+import img from '../../../assets/img/images.jpg';
 import './main.css';
 export default function Main(){
 

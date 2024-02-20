@@ -1,6 +1,8 @@
 app/assets/img
 app/vite.config.js
 app/.eslintrc.cjs
+app/package-lock.json
+app/package.json
 
 # Logs
 logs
@@ -10,6 +12,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+
+node_modules
 
 node_modules
 dist
