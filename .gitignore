@@ -1,8 +1,8 @@
-app/assets/img
-app/vite.config.js
-app/.eslintrc.cjs
-app/package-lock.json
-app/package.json
+frontend/assets/img
+frontend/vite.config.js
+frontend/.eslintrc.cjs
+frontend/package-lock.json
+frontend/package.json
 
 # Logs
 logs
@@ -30,3 +30,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+backend/src/vendor

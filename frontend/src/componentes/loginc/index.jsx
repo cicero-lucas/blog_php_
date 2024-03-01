@@ -6,9 +6,22 @@ import './index.css'
 
 export default function Login() {
     const [inputData, setInputData] = useState({emeil:'',senha:''});
+
     function enviardados(event){
         event.preventDefault();
-        alert(Object.entries(inputData))
+        fazerLoguin(inputData);
+    }
+
+    const fazerLoguin= async (dados)=>{
+        const {emeil,senha}=dados
+        alert(senha)
+        await fetch("http://127.0.0.1/php/blog_php_/index.php",{
+            method:'POST',
+            body:JSON.stringify(dados)
+        })
+        .then(res=>res.text())
+        .then(res=>console.log(res));
+        
     }
     
     return(
